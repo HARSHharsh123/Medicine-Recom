@@ -11,11 +11,16 @@ To power this innovative system, I utilized the Lightning Fast and Efficient Lig
 
 ## Techstack Used 
 flask
+
 scikit-learn==1.3.2
+
 lightgbm==4.3.0
+
 pandas 
+
 numpy
 
-## Kaggle Dataset Link : https://www.kaggle.com/datasets/noorsaeed/medicine-recommendation-system-dataset
-
-## bootstrap link : https://getbootstrap.com/
+## Links
+    Kaggle Dataset Link : https://www.kaggle.com/datasets/noorsaeed/medicine-recommendation-system-dataset
+    
+    bootstrap link : https://getbootstrap.com/
