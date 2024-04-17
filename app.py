@@ -106,6 +106,5 @@ def contact():
 def developer():
     return render_template('developer.html')
 
-    ## Removing due to use this in production grade code
-# if __name__ == "__main__":
-    # app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
