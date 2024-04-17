@@ -1,5 +1,6 @@
 flask
 scikit-learn==1.3.2
+Gunicorn
 lightgbm==4.3.0
 pandas 
 numpy
