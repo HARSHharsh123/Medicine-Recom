@@ -1,13 +1,40 @@
-## Medicine Recommendation System By HARSH SHUKLA
+# Disease Prediction and Advisory System
 
+This project is a web application built using Flask for predicting diseases based on user-input symptoms and providing comprehensive advisory information akin to a doctor's consultation.
 
+## Features
+1. Symptom Prediction: Users can input their symptoms, and the system predicts the most likely disease using a pre-trained machine learning model.
+   
+2. Comprehensive Advisory: Upon predicting the disease, the system provides detailed information including disease description, precautions, recommended medications, workout plans, and dietary advice.
+   
+3. Interactive Interface: The web application provides an interactive interface for users to input symptoms and receive personalized advisory information.
+   
+## Technologies Used
+1. Flask: Used for building the web application backend.
+   
+2. Pandas and NumPy: Utilized for data manipulation and preprocessing.
+   
+3. LightGBM: Employed for the machine learning model for disease prediction.
+   
+4. HTML/CSS: Used for frontend development and styling.
+   
+## Usage
+To run the application locally:
 
-## Introduction
-I'm thrilled to announce the launch of my latest project: A Medicine Recommendation System (MediAssist Pro) ! 🎉
-This system functions just like having a personal doctor at your fingertips. By inputting your symptoms, it predicts potential disease, provides detailed descriptions about disease, suggests precautions, recommends medications, and even offers workout and diet advice tailored to your condition.
+Install the required dependencies by running pip install -r requirements.txt.
+Run the application using python app.py.
+Access the application through a web browser at http://localhost:5000.
 
-To power this innovative system, I utilized the Lightning Fast and Efficient LightGBM machine learning algorithm. Coupled with Flask for the backend and Bootstrap for the frontend (with a little help from their documentation 😉), the result is a seamless and user-friendly experience.
+## Routes
+/: Homepage of the application.
+/predict: Endpoint for predicting diseases based on user-input symptoms.
+/home, /about, /blog, /contact, /developer: Additional pages for information and contact details.
 
+## Contributing
+Contributions are welcome! Feel free to open issues or pull requests for any enhancements or bug fixes.
+
+##License
+This project is licensed under the MIT License.
 
 ## Techstack Used 
 flask
