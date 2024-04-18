@@ -2,6 +2,15 @@
 
 This project is a web application built using Flask for predicting diseases based on user-input symptoms and providing comprehensive advisory information akin to a doctor's consultation.
 
+
+## DEMO VIDEO 
+
+
+
+https://github.com/HARSHharsh123/Medicine-Recom/assets/103876348/dddb12e7-60a4-485b-ac3c-cceb66d77b8a
+
+
+
 ## Features
 1. Symptom Prediction: Users can input their symptoms, and the system predicts the most likely disease using a pre-trained machine learning model.
    
